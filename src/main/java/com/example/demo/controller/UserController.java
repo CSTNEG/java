@@ -13,7 +13,7 @@ import java.util.List;
 public class UserController {
     @RequestMapping("/helle")
     public String hello(Model model){
-        System.out.println("进入了hello方法");
+        System.out.println("进入了shello方法");
         model.addAttribute("name","张三");
         return "hello";
     }
